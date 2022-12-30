@@ -3,6 +3,8 @@
 To reproduce the issue, open up `main.ts` and try to auto-import the `invariant` function exported
 by `utils.ts` (and which is re-exported by `mod.ts`).
 
+Issue: https://github.com/denoland/vscode_deno/issues/781
+
 ## Notes / Environment
 
 ```
