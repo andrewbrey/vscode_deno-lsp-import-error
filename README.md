@@ -1,5 +1,8 @@
 # Reproduction of issue with Deno imports / LSP
 
+To reproduce the issue, open up `main.ts` and try to auto-import the `invariant` function exported
+by `utils.ts` (and which is re-exported by `mod.ts`).
+
 ## Notes / Environment
 
 ```
