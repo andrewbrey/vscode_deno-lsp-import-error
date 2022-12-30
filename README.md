@@ -1,7 +1,7 @@
 # Reproduction of issue with Deno imports / LSP
 
 To reproduce the issue, open up `main.ts` and try to auto-import the `invariant` function from
-`mod.ts` (which is re-exporteding the function defined in `utils.ts`).
+`mod.ts` (which is re-exporting the function defined in `utils.ts`).
 
 Issue: https://github.com/denoland/vscode_deno/issues/781
 
